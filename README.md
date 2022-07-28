@@ -1,1 +1,0 @@
-# textshare-client
