@@ -1,8 +1,8 @@
 # textshare-client
 
-This is the client for the textshare application, a small program which can be installed on virtual machines, and will allow the trainer to provide you with text that can easily then be copied.
+This is the client for the textshare application, a small program which can be installed on virtual machines, and will allow the trainer to provide you with text that can then easily be copied.
 
-**To copy this application to the virtual machine:**
+**To install this application to the virtual machine:**
 
 (1) On the virtual machine, open a command prompt (click on the search icon / magnifying glass, type in CMD, then press enter).
 
