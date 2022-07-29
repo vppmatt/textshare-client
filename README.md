@@ -6,7 +6,7 @@ This is the client for the textshare application, a small program which can be i
 
 (1) On the virtual machine, open a command prompt (click on the search icon / magnifying glass, type in CMD, then press enter).
 
-(2) enter thee following commands:
+(2) enter the following commands:
 
 cd \workspace
 
