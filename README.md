@@ -14,4 +14,4 @@ git clone https://github.com/vppmatt/textshare-client.git
 
 **To run the application**
 
-Just locate the textshare-client folder and double click on the file called textshare.bat
+Just locate the textshare-client folder and double click on the file called textshare-client
