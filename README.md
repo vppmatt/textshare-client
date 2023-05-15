@@ -14,4 +14,7 @@ git clone https://github.com/vppmatt/textshare-client.git
 
 **To run the application**
 
-Just locate the textshare-client folder and double click on the file called textshare-client
+Just locate the textshare-client folder and double click on the file called textshare-client, or to run it with a different default font size try:
+java -jar textshare-client.jar -fontsize xx
+
+The default font size is 24
