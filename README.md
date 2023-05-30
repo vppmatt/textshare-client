@@ -14,4 +14,11 @@ git clone https://github.com/vppmatt/textshare-client.git
 
 **To run the application**
 
-Just locate the textshare-client folder and double click on the file called textshare.bat
+Just locate the textshare-client folder and double click on the file called textshare-client, or to run it with a different default font size try:
+java -jar textshare-client.jar -fontsize xx
+
+The default font size is 12
+
+You can specify the group name if it has no spaces in it as a command line argument if known too, e.g.
+
+java -jar textshare-client.jar -group FullStack -fontsize 12
