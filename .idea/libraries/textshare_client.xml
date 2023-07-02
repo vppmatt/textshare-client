@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="textshare-client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/textshare-client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

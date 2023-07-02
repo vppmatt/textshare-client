@@ -2,23 +2,29 @@
 
 This is the client for the textshare application, a small program which can be installed on virtual machines, and will allow the trainer to provide you with text that can then easily be copied.
 
-**To install this application to the virtual machine:**
+## To install this application:
 
-(1) On the virtual machine, open a command prompt (click on the search icon / magnifying glass, type in CMD, then press enter).
+If you do not already have the application on your virtual machine, simply download the jar file from here:
+<https://multicode.uk/textshare>.
 
-(2) enter the following commands:
+## To run the application
 
-cd \workspace
+Just double click the textshare-client file to run the application.
 
-git clone https://github.com/vppmatt/textshare-client.git
+### Setting the font size
+By default the application has a font-size of 12. This can be changed by running the application from the 
+command line and entering a command line argument. For example, to run the application with a font size of 16, enter:
 
-**To run the application**
+```java -jar textshare-client.jar -fontsize 16```
 
-Just locate the textshare-client folder and double click on the file called textshare-client, or to run it with a different default font size try:
-java -jar textshare-client.jar -fontsize xx
+### Specifying the training group name
 
-The default font size is 12
+When the application runs, you'll be provided with a list of all the active training groups. Simply select your group 
+from the list. If you accidently select the wrong group, just close the application and start again.
 
-You can specify the group name if it has no spaces in it as a command line argument if known too, e.g.
+If you already know the name of the group you can specify this using a command line argument. For example, to
+run the applicaiton and join the gropu called fullstack1, you can enter:
 
-java -jar textshare-client.jar -group FullStack -fontsize 12
+```java -jar textshare-client.jar -group fullstack1```
+
+Note: This option is only available if there are no spaces in the group name.
